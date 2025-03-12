@@ -1,5 +1,5 @@
 # Simple workflow for deploying static content to GitHub Pages
-name: Build and deploy static html pages for the SP exercises
+name: Build and deploy static html pages for the ONVD exercises
 
 on:
   # Runs on pushes targeting the default branch
