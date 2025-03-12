@@ -93,7 +93,7 @@ jobs:
         run: python create_index_pages.py # Create a content HTML named index.html in mk and en subfolders
 
       - name: Archive Output Directory
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@main
         with:
           name: output-html
           path: output/output_html  # Adjust the path to your output directory
@@ -107,7 +107,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Download artifacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@main
         with:
           name: output-html
           path: created_htmls
