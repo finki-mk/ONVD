@@ -15,7 +15,7 @@ def generate_index(html_files_directory):
     index_content += f'<h2>Содржина</h2>\n' if not is_en else "<h2>Content</h2>"
 
     for filename in html_files:
-        index_content += f'<a href="{filename}">"Аудиториска вежба бр. {filename.replace(".html", "")} / Auditory exercise #{filename.replace(".html", "")}" </a><br>\n'
+        index_content += f'<a href="{filename}">Аудиториска вежба бр. {filename.replace(".html", "")} / Auditory exercise #{filename.replace(".html", "")}</a><br>\n'
 
     index_content += '</body>\n</html>'
 

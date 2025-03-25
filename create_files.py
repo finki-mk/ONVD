@@ -40,6 +40,6 @@ for source_folder in source_folders:
 # 			extra_args=['--listings', '-s', '--pdf-engine=xelatex', '--extract-media=../img']
 # 		)
 
-# shutil.copy2("src/img", "output/img")
-# shutil.copytree("src/img", "output/output_html/img")
+shutil.copy2("src/img", "output/img")
+shutil.copytree("src/img", "output/output_html/img")
 shutil.copy2("style.css", "output/output_html/mk/style.css")
